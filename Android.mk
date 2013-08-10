@@ -30,11 +30,11 @@ LOCAL_MODULE := recovery
 LOCAL_FORCE_STATIC_EXECUTABLE := true
 
 ifdef I_AM_KOUSH
-RECOVERY_NAME := ClockworkMod Recovery
+RECOVERY_NAME := CWM中文刷机系统
 LOCAL_CFLAGS += -DI_AM_KOUSH
 else
 ifndef RECOVERY_NAME
-RECOVERY_NAME := CWM-based Recovery
+RECOVERY_NAME := CWM中文恢复系统
 endif
 endif
 
